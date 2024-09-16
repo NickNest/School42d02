@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2848028496378557692}
   - component: {fileID: 1343007894410124649}
   - component: {fileID: 8784248722250949049}
+  - component: {fileID: 7432926611486489938}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -187,6 +188,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!195 &7432926611486489938
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3124473700031529941}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.25
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.71875
+  m_BaseOffset: 0.359375
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &3186972146807721441
 GameObject:
   m_ObjectHideFlags: 0
